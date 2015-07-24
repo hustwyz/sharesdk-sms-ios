@@ -130,6 +130,10 @@ typedef enum {
  */
 + (BOOL)hideHUDForView:(UIView *)view animated:(BOOL)animated;
 
++ (void)showError:(NSString *)error toView:(UIView *)view;
+
++ (SMS_MBProgressHUD *)showMessag:(NSString *)message toView:(UIView *)view;
+
 /** 
  * A convenience constructor that initializes the HUD with the window's bounds. Calls the designated constructor with
  * window.bounds as the parameter.
