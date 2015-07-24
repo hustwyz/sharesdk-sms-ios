@@ -10,11 +10,10 @@ Pod::Spec.new do |s|
         :git => 'https://github.com/hustwyz/sharesdk-sms-ios.git',
         :tag => '1.0.9'
     }
-    s.source_files  = 'SMS_UILib/*.h', 'SMS_UILib/*.m'
     s.resources = '*.lproj'
     s.vendored_frameworks = '*.framework'
     s.license = 'MIT'
-    s.framework = 'MessageUI', 'SystemConfiguration', 'Foundation', 'UIKit', 'CoreGraphics'
+    s.framework = 'MessageUI', 'SystemConfiguration'
     s.library = 'z', 'icucore'
     s.requires_arc = false
 
