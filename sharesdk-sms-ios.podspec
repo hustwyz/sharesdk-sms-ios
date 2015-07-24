@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.resources = '*.lproj'
     s.vendored_frameworks = '*.framework'
     s.license = 'MIT'
-    s.framework = 'MessageUI', 'SystemConfiguration', 'CoreGraphics'
+    s.framework = 'MessageUI', 'SystemConfiguration', 'Foundation', 'UIKit', 'CoreGraphics'
     s.library = 'z', 'icucore'
     s.requires_arc = false
 
